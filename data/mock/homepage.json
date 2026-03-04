@@ -1,0 +1,59 @@
+{
+  "data": {
+    "nodeHomepages": {
+      "__typename": "NodeHomepageConnection",
+      "nodes": [
+        {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Meridian Consulting Group Homepage",
+          "path": "/homepage",
+          "heroTitle": "Driving Transformation, Delivering Results",
+          "heroSubtitle": "Meridian Consulting Group",
+          "heroDescription": {
+            "processed": "<p>We partner with organizations to solve complex challenges, accelerate growth, and build lasting competitive advantage through strategic consulting and operational excellence.</p>",
+            "summary": "We partner with organizations to solve complex challenges, accelerate growth, and build lasting competitive advantage through strategic consulting and operational excellence."
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-1",
+              "title": "",
+              "number": "500+",
+              "label": "Clients Served"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-2",
+              "title": "",
+              "number": "95%",
+              "label": "Client Retention"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-3",
+              "title": "",
+              "number": "40+",
+              "label": "Industry Experts"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-4",
+              "title": "",
+              "number": "25",
+              "label": "Years of Experience"
+            }
+          ],
+          "featuredItemsTitle": "Featured Case Studies",
+          "ctaTitle": "Ready to Transform Your Business?",
+          "ctaDescription": {
+            "processed": "<p>Schedule a complimentary strategy session with our senior consultants. We will assess your challenges and outline a path to measurable results.</p>",
+            "summary": "Schedule a complimentary strategy session with our senior consultants. We will assess your challenges and outline a path to measurable results."
+          },
+          "ctaPrimary": "Schedule a Consultation",
+          "ctaSecondary": "Our Services"
+        }
+      ]
+    }
+  }
+}

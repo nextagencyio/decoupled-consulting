@@ -1,0 +1,126 @@
+{
+  "data": {
+    "nodeCaseStudies": {
+      "__typename": "NodeCaseStudyConnection",
+      "nodes": [
+        {
+          "__typename": "NodeCaseStudy",
+          "id": "case-healthcare",
+          "title": "Healthcare System Transformation",
+          "path": "/case-studies/healthcare-system-transformation",
+          "body": {
+            "processed": "<p>A regional healthcare network with 12 hospitals needed to reduce operating costs while improving patient outcomes. Our team conducted a comprehensive operational review and developed a multi-year transformation roadmap.</p><h2>Challenge</h2><p>Rising costs, fragmented operations, and inconsistent patient experiences across facilities were threatening the network's financial sustainability.</p><h2>Solution</h2><p>We implemented standardized clinical protocols, centralized procurement, and deployed a unified patient management system across all locations.</p><h2>Results</h2><ul><li>22% reduction in operating costs over 18 months</li><li>Patient satisfaction scores improved from 3.2 to 4.6 out of 5</li><li>Average length of stay reduced by 1.3 days</li><li>Staff retention improved by 15%</li></ul>",
+            "summary": "A regional healthcare network with 12 hospitals needed to reduce operating costs while improving patient outcomes. Our team conducted a comprehensive operational review and developed a multi-year tran"
+          },
+          "clientName": "Regional Health Partners",
+          "industry": "Healthcare",
+          "resultsSummary": "22% cost reduction, 44% improvement in patient satisfaction",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80",
+            "alt": "Modern hospital building exterior",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeCaseStudy",
+          "id": "case-fintech",
+          "title": "Fintech Market Entry Strategy",
+          "path": "/case-studies/fintech-market-entry",
+          "body": {
+            "processed": "<p>A traditional financial services company wanted to enter the digital payments market. We developed a comprehensive market entry strategy and go-to-market plan.</p><h2>Challenge</h2><p>The client had strong brand recognition in traditional banking but lacked the agility and digital capabilities needed to compete in the fast-moving fintech space.</p><h2>Solution</h2><p>We recommended a hybrid approach: acquiring a niche fintech startup while building internal digital capabilities. Our team managed the acquisition process and designed the integration plan.</p><h2>Results</h2><ul><li>Successfully acquired a mobile payments startup within 6 months</li><li>Launched digital payments platform to 2M+ customers in year one</li><li>Achieved $45M in new revenue from digital channels</li><li>Reduced customer acquisition cost by 60% vs. traditional channels</li></ul>",
+            "summary": "A traditional financial services company wanted to enter the digital payments market. We developed a comprehensive market entry strategy and go-to-market plan.ChallengeThe client had strong brand reco"
+          },
+          "clientName": "Atlantic Financial Corp",
+          "industry": "Financial Services",
+          "resultsSummary": "$45M new revenue, 2M+ digital customers in year one",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
+            "alt": "Financial technology dashboard on a screen",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeCaseStudy",
+          "id": "case-manufacturing",
+          "title": "Supply Chain Resilience Program",
+          "path": "/case-studies/manufacturing-supply-chain",
+          "body": {
+            "processed": "<p>A global manufacturer experienced severe supply chain disruptions and engaged our team to build a more resilient and agile supply network.</p><h2>Challenge</h2><p>Single-source dependencies, limited visibility into tier-2 suppliers, and outdated demand forecasting led to $120M in lost revenue during disruptions.</p><h2>Solution</h2><p>We redesigned the supply chain with dual-sourcing strategies, implemented real-time supply chain visibility tools, and deployed AI-driven demand forecasting models.</p><h2>Results</h2><ul><li>Supply chain disruption recovery time reduced from 12 weeks to 3 weeks</li><li>Inventory carrying costs reduced by 18%</li><li>On-time delivery improved from 82% to 97%</li><li>$35M annual savings from optimized procurement</li></ul>",
+            "summary": "A global manufacturer experienced severe supply chain disruptions and engaged our team to build a more resilient and agile supply network.ChallengeSingle-source dependencies, limited visibility into t"
+          },
+          "clientName": "Precision Manufacturing Inc.",
+          "industry": "Manufacturing",
+          "resultsSummary": "75% faster disruption recovery, $35M annual savings",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1565043666747-69f6646db940?w=800&q=80",
+            "alt": "Manufacturing facility and supply chain logistics",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1565043666747-69f6646db940?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1565043666747-69f6646db940?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1565043666747-69f6646db940?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

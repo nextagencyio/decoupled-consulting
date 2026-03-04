@@ -1,0 +1,126 @@
+{
+  "data": {
+    "nodeTeamMembers": {
+      "__typename": "NodeTeamMemberConnection",
+      "nodes": [
+        {
+          "__typename": "NodeTeamMember",
+          "id": "team-sarah",
+          "title": "Sarah Blackwell",
+          "path": "/team/sarah-blackwell",
+          "body": {
+            "processed": "<p>Sarah founded Meridian Consulting Group with a vision to deliver Fortune 500-caliber consulting to mid-market companies. With 25 years of experience at a Big Four firm and in industry leadership roles, she brings strategic acumen and practical execution expertise to every engagement.</p>",
+            "summary": "Sarah founded Meridian Consulting Group with a vision to deliver Fortune 500-caliber consulting to mid-market companies. With 25 years of experience at a Big Four firm and in industry leadership roles"
+          },
+          "position": "Managing Partner",
+          "email": "sarah@meridiancg.com",
+          "phone": "(555) 567-8901",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+            "alt": "Sarah Blackwell, Managing Partner",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeTeamMember",
+          "id": "team-james",
+          "title": "James Chen",
+          "path": "/team/james-chen",
+          "body": {
+            "processed": "<p>James leads our digital transformation practice. With a background in software engineering and an MBA from Wharton, he bridges the gap between technology and business strategy. He has led over 50 digital transformation engagements across industries.</p>",
+            "summary": "James leads our digital transformation practice. With a background in software engineering and an MBA from Wharton, he bridges the gap between technology and business strategy. He has led over 50 digi"
+          },
+          "position": "Partner, Digital Transformation",
+          "email": "james@meridiancg.com",
+          "phone": "(555) 567-8902",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+            "alt": "James Chen, Partner",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeTeamMember",
+          "id": "team-elena",
+          "title": "Elena Rodriguez",
+          "path": "/team/elena-rodriguez",
+          "body": {
+            "processed": "<p>Elena heads our operations consulting practice, specializing in lean manufacturing and supply chain optimization. She has helped clients across the globe achieve hundreds of millions in operational savings through process improvement and organizational design.</p>",
+            "summary": "Elena heads our operations consulting practice, specializing in lean manufacturing and supply chain optimization. She has helped clients across the globe achieve hundreds of millions in operational sa"
+          },
+          "position": "Partner, Operations",
+          "email": "elena@meridiancg.com",
+          "phone": "(555) 567-8903",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&q=80",
+            "alt": "Elena Rodriguez, Partner",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

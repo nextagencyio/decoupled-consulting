@@ -1,0 +1,120 @@
+{
+  "data": {
+    "nodeServices": {
+      "__typename": "NodeServiceConnection",
+      "nodes": [
+        {
+          "__typename": "NodeService",
+          "id": "service-strategy",
+          "title": "Strategy Consulting",
+          "path": "/services/strategy-consulting",
+          "body": {
+            "processed": "<p>Our strategy practice helps organizations define their vision, identify growth opportunities, and develop actionable plans to achieve their goals. We bring deep industry expertise and rigorous analytical frameworks to every engagement.</p><h2>What We Deliver</h2><ul><li>Corporate strategy and business planning</li><li>Market entry and expansion strategies</li><li>Competitive positioning and differentiation</li><li>Merger, acquisition, and partnership advisory</li><li>Portfolio optimization and resource allocation</li></ul><h2>Our Approach</h2><p>We combine data-driven analysis with practical experience to develop strategies that are both ambitious and executable. Our consultants work alongside your team to ensure alignment and build internal capabilities.</p>",
+            "summary": "Our strategy practice helps organizations define their vision, identify growth opportunities, and develop actionable plans to achieve their goals. We bring deep industry expertise and rigorous analyti"
+          },
+          "serviceCategory": "Strategy",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
+            "alt": "Strategy planning session at a conference table",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeService",
+          "id": "service-operations",
+          "title": "Operations Consulting",
+          "path": "/services/operations-consulting",
+          "body": {
+            "processed": "<p>We help organizations streamline processes, reduce costs, and improve operational performance. Our operations practice focuses on delivering tangible improvements that drive bottom-line results.</p><h2>Focus Areas</h2><ul><li>Process optimization and lean management</li><li>Supply chain transformation</li><li>Organizational design and workforce planning</li><li>Performance management and KPI frameworks</li><li>Cost reduction and efficiency programs</li></ul><h2>Impact</h2><p>Our clients typically achieve 15-30% operational cost reductions within the first year while improving quality and customer satisfaction.</p>",
+            "summary": "We help organizations streamline processes, reduce costs, and improve operational performance. Our operations practice focuses on delivering tangible improvements that drive bottom-line results.Focus "
+          },
+          "serviceCategory": "Operations",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+            "alt": "Operations dashboard and analytics",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeService",
+          "id": "service-digital",
+          "title": "Digital Transformation",
+          "path": "/services/digital-transformation",
+          "body": {
+            "processed": "<p>Navigate the digital landscape with confidence. We guide organizations through technology-driven change, from strategy development to implementation and adoption.</p><h2>Services</h2><ul><li>Digital strategy and roadmap development</li><li>Technology assessment and vendor selection</li><li>Data analytics and business intelligence</li><li>Change management and digital adoption</li><li>Agile transformation and DevOps</li></ul><h2>Why Digital Matters</h2><p>Organizations that embrace digital transformation see 2-3x revenue growth compared to peers. We help you harness technology as a strategic advantage, not just a tool.</p>",
+            "summary": "Navigate the digital landscape with confidence. We guide organizations through technology-driven change, from strategy development to implementation and adoption.ServicesDigital strategy and roadmap d"
+          },
+          "serviceCategory": "Digital",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80",
+            "alt": "Team working on digital strategy with laptops",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

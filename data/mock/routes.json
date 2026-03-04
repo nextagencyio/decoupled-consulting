@@ -1,0 +1,650 @@
+{
+  "/homepage": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeHomepage",
+          "id": "homepage",
+          "title": "Meridian Consulting Group Homepage",
+          "path": "/homepage",
+          "heroTitle": "Driving Transformation, Delivering Results",
+          "heroSubtitle": "Meridian Consulting Group",
+          "heroDescription": {
+            "processed": "<p>We partner with organizations to solve complex challenges, accelerate growth, and build lasting competitive advantage through strategic consulting and operational excellence.</p>",
+            "summary": "We partner with organizations to solve complex challenges, accelerate growth, and build lasting competitive advantage through strategic consulting and operational excellence."
+          },
+          "statsItems": [
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-1",
+              "title": "",
+              "number": "500+",
+              "label": "Clients Served"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-2",
+              "title": "",
+              "number": "95%",
+              "label": "Client Retention"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-3",
+              "title": "",
+              "number": "40+",
+              "label": "Industry Experts"
+            },
+            {
+              "__typename": "ParagraphStatItem",
+              "id": "stat-4",
+              "title": "",
+              "number": "25",
+              "label": "Years of Experience"
+            }
+          ],
+          "featuredItemsTitle": "Featured Case Studies",
+          "ctaTitle": "Ready to Transform Your Business?",
+          "ctaDescription": {
+            "processed": "<p>Schedule a complimentary strategy session with our senior consultants. We will assess your challenges and outline a path to measurable results.</p>",
+            "summary": "Schedule a complimentary strategy session with our senior consultants. We will assess your challenges and outline a path to measurable results."
+          },
+          "ctaPrimary": "Schedule a Consultation",
+          "ctaSecondary": "Our Services"
+        }
+      }
+    }
+  },
+  "/services/strategy-consulting": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-strategy",
+          "title": "Strategy Consulting",
+          "path": "/services/strategy-consulting",
+          "body": {
+            "processed": "<p>Our strategy practice helps organizations define their vision, identify growth opportunities, and develop actionable plans to achieve their goals. We bring deep industry expertise and rigorous analytical frameworks to every engagement.</p><h2>What We Deliver</h2><ul><li>Corporate strategy and business planning</li><li>Market entry and expansion strategies</li><li>Competitive positioning and differentiation</li><li>Merger, acquisition, and partnership advisory</li><li>Portfolio optimization and resource allocation</li></ul><h2>Our Approach</h2><p>We combine data-driven analysis with practical experience to develop strategies that are both ambitious and executable. Our consultants work alongside your team to ensure alignment and build internal capabilities.</p>",
+            "summary": "Our strategy practice helps organizations define their vision, identify growth opportunities, and develop actionable plans to achieve their goals. We bring deep industry expertise and rigorous analyti"
+          },
+          "serviceCategory": "Strategy",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
+            "alt": "Strategy planning session at a conference table",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/services/operations-consulting": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-operations",
+          "title": "Operations Consulting",
+          "path": "/services/operations-consulting",
+          "body": {
+            "processed": "<p>We help organizations streamline processes, reduce costs, and improve operational performance. Our operations practice focuses on delivering tangible improvements that drive bottom-line results.</p><h2>Focus Areas</h2><ul><li>Process optimization and lean management</li><li>Supply chain transformation</li><li>Organizational design and workforce planning</li><li>Performance management and KPI frameworks</li><li>Cost reduction and efficiency programs</li></ul><h2>Impact</h2><p>Our clients typically achieve 15-30% operational cost reductions within the first year while improving quality and customer satisfaction.</p>",
+            "summary": "We help organizations streamline processes, reduce costs, and improve operational performance. Our operations practice focuses on delivering tangible improvements that drive bottom-line results.Focus "
+          },
+          "serviceCategory": "Operations",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+            "alt": "Operations dashboard and analytics",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/services/digital-transformation": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeService",
+          "id": "service-digital",
+          "title": "Digital Transformation",
+          "path": "/services/digital-transformation",
+          "body": {
+            "processed": "<p>Navigate the digital landscape with confidence. We guide organizations through technology-driven change, from strategy development to implementation and adoption.</p><h2>Services</h2><ul><li>Digital strategy and roadmap development</li><li>Technology assessment and vendor selection</li><li>Data analytics and business intelligence</li><li>Change management and digital adoption</li><li>Agile transformation and DevOps</li></ul><h2>Why Digital Matters</h2><p>Organizations that embrace digital transformation see 2-3x revenue growth compared to peers. We help you harness technology as a strategic advantage, not just a tool.</p>",
+            "summary": "Navigate the digital landscape with confidence. We guide organizations through technology-driven change, from strategy development to implementation and adoption.ServicesDigital strategy and roadmap d"
+          },
+          "serviceCategory": "Digital",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80",
+            "alt": "Team working on digital strategy with laptops",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/case-studies/healthcare-system-transformation": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeCaseStudy",
+          "id": "case-healthcare",
+          "title": "Healthcare System Transformation",
+          "path": "/case-studies/healthcare-system-transformation",
+          "body": {
+            "processed": "<p>A regional healthcare network with 12 hospitals needed to reduce operating costs while improving patient outcomes. Our team conducted a comprehensive operational review and developed a multi-year transformation roadmap.</p><h2>Challenge</h2><p>Rising costs, fragmented operations, and inconsistent patient experiences across facilities were threatening the network's financial sustainability.</p><h2>Solution</h2><p>We implemented standardized clinical protocols, centralized procurement, and deployed a unified patient management system across all locations.</p><h2>Results</h2><ul><li>22% reduction in operating costs over 18 months</li><li>Patient satisfaction scores improved from 3.2 to 4.6 out of 5</li><li>Average length of stay reduced by 1.3 days</li><li>Staff retention improved by 15%</li></ul>",
+            "summary": "A regional healthcare network with 12 hospitals needed to reduce operating costs while improving patient outcomes. Our team conducted a comprehensive operational review and developed a multi-year tran"
+          },
+          "clientName": "Regional Health Partners",
+          "industry": "Healthcare",
+          "resultsSummary": "22% cost reduction, 44% improvement in patient satisfaction",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80",
+            "alt": "Modern hospital building exterior",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/case-studies/fintech-market-entry": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeCaseStudy",
+          "id": "case-fintech",
+          "title": "Fintech Market Entry Strategy",
+          "path": "/case-studies/fintech-market-entry",
+          "body": {
+            "processed": "<p>A traditional financial services company wanted to enter the digital payments market. We developed a comprehensive market entry strategy and go-to-market plan.</p><h2>Challenge</h2><p>The client had strong brand recognition in traditional banking but lacked the agility and digital capabilities needed to compete in the fast-moving fintech space.</p><h2>Solution</h2><p>We recommended a hybrid approach: acquiring a niche fintech startup while building internal digital capabilities. Our team managed the acquisition process and designed the integration plan.</p><h2>Results</h2><ul><li>Successfully acquired a mobile payments startup within 6 months</li><li>Launched digital payments platform to 2M+ customers in year one</li><li>Achieved $45M in new revenue from digital channels</li><li>Reduced customer acquisition cost by 60% vs. traditional channels</li></ul>",
+            "summary": "A traditional financial services company wanted to enter the digital payments market. We developed a comprehensive market entry strategy and go-to-market plan.ChallengeThe client had strong brand reco"
+          },
+          "clientName": "Atlantic Financial Corp",
+          "industry": "Financial Services",
+          "resultsSummary": "$45M new revenue, 2M+ digital customers in year one",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
+            "alt": "Financial technology dashboard on a screen",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/case-studies/manufacturing-supply-chain": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeCaseStudy",
+          "id": "case-manufacturing",
+          "title": "Supply Chain Resilience Program",
+          "path": "/case-studies/manufacturing-supply-chain",
+          "body": {
+            "processed": "<p>A global manufacturer experienced severe supply chain disruptions and engaged our team to build a more resilient and agile supply network.</p><h2>Challenge</h2><p>Single-source dependencies, limited visibility into tier-2 suppliers, and outdated demand forecasting led to $120M in lost revenue during disruptions.</p><h2>Solution</h2><p>We redesigned the supply chain with dual-sourcing strategies, implemented real-time supply chain visibility tools, and deployed AI-driven demand forecasting models.</p><h2>Results</h2><ul><li>Supply chain disruption recovery time reduced from 12 weeks to 3 weeks</li><li>Inventory carrying costs reduced by 18%</li><li>On-time delivery improved from 82% to 97%</li><li>$35M annual savings from optimized procurement</li></ul>",
+            "summary": "A global manufacturer experienced severe supply chain disruptions and engaged our team to build a more resilient and agile supply network.ChallengeSingle-source dependencies, limited visibility into t"
+          },
+          "clientName": "Precision Manufacturing Inc.",
+          "industry": "Manufacturing",
+          "resultsSummary": "75% faster disruption recovery, $35M annual savings",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1565043666747-69f6646db940?w=800&q=80",
+            "alt": "Manufacturing facility and supply chain logistics",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1565043666747-69f6646db940?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1565043666747-69f6646db940?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1565043666747-69f6646db940?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/team/sarah-blackwell": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeTeamMember",
+          "id": "team-sarah",
+          "title": "Sarah Blackwell",
+          "path": "/team/sarah-blackwell",
+          "body": {
+            "processed": "<p>Sarah founded Meridian Consulting Group with a vision to deliver Fortune 500-caliber consulting to mid-market companies. With 25 years of experience at a Big Four firm and in industry leadership roles, she brings strategic acumen and practical execution expertise to every engagement.</p>",
+            "summary": "Sarah founded Meridian Consulting Group with a vision to deliver Fortune 500-caliber consulting to mid-market companies. With 25 years of experience at a Big Four firm and in industry leadership roles"
+          },
+          "position": "Managing Partner",
+          "email": "sarah@meridiancg.com",
+          "phone": "(555) 567-8901",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+            "alt": "Sarah Blackwell, Managing Partner",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/team/james-chen": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeTeamMember",
+          "id": "team-james",
+          "title": "James Chen",
+          "path": "/team/james-chen",
+          "body": {
+            "processed": "<p>James leads our digital transformation practice. With a background in software engineering and an MBA from Wharton, he bridges the gap between technology and business strategy. He has led over 50 digital transformation engagements across industries.</p>",
+            "summary": "James leads our digital transformation practice. With a background in software engineering and an MBA from Wharton, he bridges the gap between technology and business strategy. He has led over 50 digi"
+          },
+          "position": "Partner, Digital Transformation",
+          "email": "james@meridiancg.com",
+          "phone": "(555) 567-8902",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+            "alt": "James Chen, Partner",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/team/elena-rodriguez": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeTeamMember",
+          "id": "team-elena",
+          "title": "Elena Rodriguez",
+          "path": "/team/elena-rodriguez",
+          "body": {
+            "processed": "<p>Elena heads our operations consulting practice, specializing in lean manufacturing and supply chain optimization. She has helped clients across the globe achieve hundreds of millions in operational savings through process improvement and organizational design.</p>",
+            "summary": "Elena heads our operations consulting practice, specializing in lean manufacturing and supply chain optimization. She has helped clients across the globe achieve hundreds of millions in operational sa"
+          },
+          "position": "Partner, Operations",
+          "email": "elena@meridiancg.com",
+          "phone": "(555) 567-8903",
+          "photo": {
+            "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&q=80",
+            "alt": "Elena Rodriguez, Partner",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/insights/ai-driven-strategy": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeInsight",
+          "id": "insight-ai-strategy",
+          "title": "How AI Is Reshaping Corporate Strategy",
+          "path": "/insights/ai-driven-strategy",
+          "body": {
+            "processed": "<p>Artificial intelligence is no longer a future consideration - it is a present-day strategic imperative. Organizations that integrate AI into their strategic planning process are gaining significant competitive advantages.</p><h2>Key Trends</h2><ul><li>AI-powered market analysis can process 10x more data points than traditional methods</li><li>Predictive analytics are transforming demand forecasting accuracy by 35-50%</li><li>Automated competitive intelligence is shortening strategy cycles from months to weeks</li></ul><h2>What Leaders Should Do Now</h2><p>Start with a clear AI strategy aligned to business objectives. Invest in data infrastructure and talent. Begin with high-impact, low-risk pilots before scaling. The organizations that act now will define the next decade of competition.</p>",
+            "summary": "Artificial intelligence is no longer a future consideration - it is a present-day strategic imperative. Organizations that integrate AI into their strategic planning process are gaining significant co"
+          },
+          "insightCategory": "Strategy & Innovation",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80",
+            "alt": "Artificial intelligence and business strategy concept",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/insights/building-resilient-supply-chains": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeInsight",
+          "id": "insight-supply-chain",
+          "title": "Building Resilient Supply Chains in an Uncertain World",
+          "path": "/insights/building-resilient-supply-chains",
+          "body": {
+            "processed": "<p>Global supply chains face unprecedented challenges from geopolitical tensions, climate events, and rapid market shifts. Resilience is no longer optional - it is a core competitive capability.</p><h2>Principles of Resilient Supply Chains</h2><ul><li><strong>Diversification</strong> - Reduce single-source dependencies across all tiers</li><li><strong>Visibility</strong> - Implement real-time tracking and monitoring across the entire network</li><li><strong>Agility</strong> - Build the ability to quickly shift production and sourcing</li><li><strong>Collaboration</strong> - Develop deeper partnerships with key suppliers</li></ul><h2>Investment Priorities</h2><p>Companies should prioritize digital supply chain platforms, nearshoring strategies, and scenario planning capabilities. The cost of resilience is far less than the cost of disruption.</p>",
+            "summary": "Global supply chains face unprecedented challenges from geopolitical tensions, climate events, and rapid market shifts. Resilience is no longer optional - it is a core competitive capability.Principle"
+          },
+          "insightCategory": "Operations & Supply Chain",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&q=80",
+            "alt": "Global supply chain logistics and shipping containers",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/insights/winning-the-talent-war": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodeInsight",
+          "id": "insight-talent",
+          "title": "Winning the War for Talent in a Hybrid World",
+          "path": "/insights/winning-the-talent-war",
+          "body": {
+            "processed": "<p>The competition for top talent has intensified as remote and hybrid work models have expanded the talent marketplace beyond geographic boundaries.</p><h2>What Top Employers Are Doing Differently</h2><ul><li>Offering genuine flexibility rather than prescriptive hybrid schedules</li><li>Investing in employee development and career pathing</li><li>Building cultures of purpose and belonging, not just compensation</li><li>Using data-driven approaches to identify and address retention risks</li></ul><h2>The Cost of Getting It Wrong</h2><p>Replacing a skilled employee costs 1.5-2x their annual salary. Organizations that fail to adapt their talent strategies risk losing their most valuable asset - their people.</p>",
+            "summary": "The competition for top talent has intensified as remote and hybrid work models have expanded the talent marketplace beyond geographic boundaries.What Top Employers Are Doing DifferentlyOffering genui"
+          },
+          "insightCategory": "People & Organization",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&q=80",
+            "alt": "Diverse team collaborating in a modern office",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "/about": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "about-page",
+          "title": "About Meridian Consulting Group",
+          "path": "/about",
+          "body": {
+            "processed": "<p>Meridian Consulting Group was founded in 2000 with a singular mission: to help organizations navigate complexity and achieve transformational results. Over two decades, we have grown into a trusted advisor to mid-market and enterprise clients across industries.</p><h2>Our Philosophy</h2><p>We believe great consulting is not about delivering reports - it is about delivering results. Every engagement is designed to create measurable impact and build lasting capabilities within our clients' organizations.</p><h2>Our Values</h2><ul><li><strong>Impact First</strong> - We measure success by the results our clients achieve</li><li><strong>Intellectual Rigor</strong> - We bring analytical depth and evidence-based thinking to every challenge</li><li><strong>Partnership</strong> - We work alongside our clients, not above them</li><li><strong>Integrity</strong> - We tell clients what they need to hear, not what they want to hear</li></ul>",
+            "summary": "Meridian Consulting Group was founded in 2000 with a singular mission: to help organizations navigate complexity and achieve transformational results. Over two decades, we have grown into a trusted ad"
+          }
+        }
+      }
+    }
+  },
+  "/contact": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "contact-page",
+          "title": "Contact Meridian Consulting Group",
+          "path": "/contact",
+          "body": {
+            "processed": "<p>Ready to discuss how we can help your organization? We offer complimentary strategy sessions to understand your challenges and explore how we can drive results together.</p><h2>Office Locations</h2><p><strong>New York (Headquarters)</strong><br/>100 Park Avenue, 25th Floor<br/>New York, NY 10017</p><p><strong>Chicago</strong><br/>233 S. Wacker Drive, Suite 4400<br/>Chicago, IL 60606</p><h2>General Inquiries</h2><p>Phone: (555) 567-8900<br/>Email: info@meridiancg.com</p><h2>Careers</h2><p>Interested in joining our team? Visit our careers page or email careers@meridiancg.com</p>",
+            "summary": "Ready to discuss how we can help your organization? We offer complimentary strategy sessions to understand your challenges and explore how we can drive results together.Office LocationsNew York (Headq"
+          }
+        }
+      }
+    }
+  },
+  "/careers": {
+    "data": {
+      "route": {
+        "__typename": "RouteInternal",
+        "entity": {
+          "__typename": "NodePage",
+          "id": "careers-page",
+          "title": "Careers at Meridian Consulting Group",
+          "path": "/careers",
+          "body": {
+            "processed": "<p>Join a team of exceptional professionals who are passionate about solving complex problems and delivering meaningful impact for our clients.</p><h2>Why Meridian</h2><ul><li>Work on transformational engagements across industries</li><li>Accelerated career development with dedicated mentorship</li><li>Collaborative, intellectually stimulating environment</li><li>Competitive compensation and comprehensive benefits</li><li>Flexible work arrangements and generous PTO</li></ul><h2>Who We Hire</h2><p>We look for analytical thinkers, effective communicators, and driven professionals at all experience levels. Whether you are a recent MBA graduate or a seasoned industry expert, we have a path for you.</p>",
+            "summary": "Join a team of exceptional professionals who are passionate about solving complex problems and delivering meaningful impact for our clients.Why MeridianWork on transformational engagements across indu"
+          }
+        }
+      }
+    }
+  }
+}

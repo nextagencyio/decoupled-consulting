@@ -1,0 +1,120 @@
+{
+  "data": {
+    "nodeInsights": {
+      "__typename": "NodeInsightConnection",
+      "nodes": [
+        {
+          "__typename": "NodeInsight",
+          "id": "insight-ai-strategy",
+          "title": "How AI Is Reshaping Corporate Strategy",
+          "path": "/insights/ai-driven-strategy",
+          "body": {
+            "processed": "<p>Artificial intelligence is no longer a future consideration - it is a present-day strategic imperative. Organizations that integrate AI into their strategic planning process are gaining significant competitive advantages.</p><h2>Key Trends</h2><ul><li>AI-powered market analysis can process 10x more data points than traditional methods</li><li>Predictive analytics are transforming demand forecasting accuracy by 35-50%</li><li>Automated competitive intelligence is shortening strategy cycles from months to weeks</li></ul><h2>What Leaders Should Do Now</h2><p>Start with a clear AI strategy aligned to business objectives. Invest in data infrastructure and talent. Begin with high-impact, low-risk pilots before scaling. The organizations that act now will define the next decade of competition.</p>",
+            "summary": "Artificial intelligence is no longer a future consideration - it is a present-day strategic imperative. Organizations that integrate AI into their strategic planning process are gaining significant co"
+          },
+          "insightCategory": "Strategy & Innovation",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80",
+            "alt": "Artificial intelligence and business strategy concept",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeInsight",
+          "id": "insight-supply-chain",
+          "title": "Building Resilient Supply Chains in an Uncertain World",
+          "path": "/insights/building-resilient-supply-chains",
+          "body": {
+            "processed": "<p>Global supply chains face unprecedented challenges from geopolitical tensions, climate events, and rapid market shifts. Resilience is no longer optional - it is a core competitive capability.</p><h2>Principles of Resilient Supply Chains</h2><ul><li><strong>Diversification</strong> - Reduce single-source dependencies across all tiers</li><li><strong>Visibility</strong> - Implement real-time tracking and monitoring across the entire network</li><li><strong>Agility</strong> - Build the ability to quickly shift production and sourcing</li><li><strong>Collaboration</strong> - Develop deeper partnerships with key suppliers</li></ul><h2>Investment Priorities</h2><p>Companies should prioritize digital supply chain platforms, nearshoring strategies, and scenario planning capabilities. The cost of resilience is far less than the cost of disruption.</p>",
+            "summary": "Global supply chains face unprecedented challenges from geopolitical tensions, climate events, and rapid market shifts. Resilience is no longer optional - it is a core competitive capability.Principle"
+          },
+          "insightCategory": "Operations & Supply Chain",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&q=80",
+            "alt": "Global supply chain logistics and shipping containers",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        },
+        {
+          "__typename": "NodeInsight",
+          "id": "insight-talent",
+          "title": "Winning the War for Talent in a Hybrid World",
+          "path": "/insights/winning-the-talent-war",
+          "body": {
+            "processed": "<p>The competition for top talent has intensified as remote and hybrid work models have expanded the talent marketplace beyond geographic boundaries.</p><h2>What Top Employers Are Doing Differently</h2><ul><li>Offering genuine flexibility rather than prescriptive hybrid schedules</li><li>Investing in employee development and career pathing</li><li>Building cultures of purpose and belonging, not just compensation</li><li>Using data-driven approaches to identify and address retention risks</li></ul><h2>The Cost of Getting It Wrong</h2><p>Replacing a skilled employee costs 1.5-2x their annual salary. Organizations that fail to adapt their talent strategies risk losing their most valuable asset - their people.</p>",
+            "summary": "The competition for top talent has intensified as remote and hybrid work models have expanded the talent marketplace beyond geographic boundaries.What Top Employers Are Doing DifferentlyOffering genui"
+          },
+          "insightCategory": "People & Organization",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&q=80",
+            "alt": "Diverse team collaborating in a modern office",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

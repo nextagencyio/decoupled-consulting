@@ -113,6 +113,43 @@
               }
             ]
           }
+        },
+        {
+          "__typename": "NodeService",
+          "id": "service-change-management",
+          "title": "Change Management",
+          "path": "/services/change-management",
+          "body": {
+            "processed": "<p>Successful transformation requires more than a great strategy — it requires people to embrace change. Our change management practice helps organizations navigate transitions smoothly, from mergers and restructures to technology rollouts and culture shifts.</p><h2>What We Deliver</h2><ul><li>Organizational change readiness assessments</li><li>Stakeholder engagement and communication plans</li><li>Leadership alignment and sponsorship coaching</li><li>Training program design and delivery</li><li>Adoption measurement and reinforcement strategies</li></ul><h2>Our Approach</h2><p>We use a people-first methodology grounded in behavioral science. By understanding resistance patterns and motivation drivers, we help your teams move from awareness to adoption faster — with less disruption and higher sustained results.</p>",
+            "summary": "Successful transformation requires more than a great strategy — it requires people to embrace change. Our change management practice helps organizations navigate transitions smoothly, from mergers and r"
+          },
+          "serviceCategory": "Advisory",
+          "image": {
+            "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80",
+            "alt": "Team collaborating on change management strategy",
+            "width": 800,
+            "height": 533,
+            "variations": [
+              {
+                "name": "LARGE",
+                "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=800&q=80",
+                "width": 800,
+                "height": 533
+              },
+              {
+                "name": "MEDIUM",
+                "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=480&q=80",
+                "width": 480,
+                "height": 320
+              },
+              {
+                "name": "THUMBNAIL",
+                "url": "https://images.unsplash.com/photo-1552664730-d307ca884978?w=200&q=80",
+                "width": 200,
+                "height": 133
+              }
+            ]
+          }
         }
       ]
     }

@@ -46,8 +46,8 @@ export default function FeaturedServices() {
             <ArrowRight className="w-4 h-4 ml-1" />
           </Link>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {services.slice(0, 4).map((service) => (
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {services.slice(0, 5).map((service) => (
             <Link
               key={service.id}
               href={service.path || '#'}

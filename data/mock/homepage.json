@@ -19,28 +19,28 @@
               "__typename": "ParagraphStatItem",
               "id": "stat-1",
               "title": "",
-              "number": "500+",
+              "number": "500+", "value": "500+",
               "label": "Clients Served"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-2",
               "title": "",
-              "number": "95%",
+              "number": "95%", "value": "95%",
               "label": "Client Retention"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-3",
               "title": "",
-              "number": "40+",
+              "number": "40+", "value": "40+",
               "label": "Industry Experts"
             },
             {
               "__typename": "ParagraphStatItem",
               "id": "stat-4",
               "title": "",
-              "number": "25",
+              "number": "25", "value": "25",
               "label": "Years of Experience"
             }
           ],

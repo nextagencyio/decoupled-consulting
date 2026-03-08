@@ -7,6 +7,7 @@ import Header from '../components/Header'
 import InsightCard from '../components/InsightCard'
 
 export const revalidate = 3600
+export const dynamic = 'force-dynamic'
 
 export const metadata: Metadata = {
   title: 'Insights | Apex Strategy Group',

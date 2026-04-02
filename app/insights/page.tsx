@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 async function getInsights() {
   try {
     const client = getClient()
-    const { data } = await client.raw(GET_INSIGHTS, { first: 50 })
+    const data = await client.raw(GET_INSIGHTS, { first: 50 })
     return data?.nodeInsights?.nodes || []
   } catch (error) {
     console.error('Error fetching insights:', error)
@@ -60,7 +60,7 @@ export default async function InsightsPage() {
             </div>
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-              {items.map((item) => (
+              {items.map((item: any) => (
                 <InsightCard key={item.id} item={item} />
               ))}
             </div>

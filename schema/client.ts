@@ -24,7 +24,7 @@ export interface TypedClient {
   raw<T = any>(query: string, variables?: Record<string, any>): Promise<T>
 }
 
-// Stub factory — uses raw queryByPath with a basic route query
+// Stub factory — uses raw queryByPath with a full route query
 export function createTypedClient(client: DecoupledClient): TypedClient {
   return {
     async getEntries() { return [] },
@@ -34,7 +34,32 @@ export function createTypedClient(client: DecoupledClient): TypedClient {
         query ($path: String!) {
           route(path: $path) {
             ... on RouteInternal {
-              entity { ... on NodePage { __typename id title path body { processed } } }
+              entity {
+                ... on NodePage {
+                  __typename id title path body { processed }
+                }
+                ... on NodeService {
+                  __typename id title path body { processed summary } serviceCategory
+                  image { url alt width height variations(styles: [LARGE, MEDIUM]) { name url width height } }
+                }
+                ... on NodeCaseStudy {
+                  __typename id title path body { processed summary } clientName industry resultsSummary
+                  image { url alt width height variations(styles: [LARGE, MEDIUM]) { name url width height } }
+                }
+                ... on NodeTeamMember {
+                  __typename id title path body { processed } position email phone
+                  photo { url alt width height variations(styles: [LARGE, MEDIUM]) { name url width height } }
+                }
+                ... on NodeInsight {
+                  __typename id title path created { timestamp } body { processed summary } insightCategory
+                  image { url alt width height variations(styles: [LARGE, MEDIUM]) { name url width height } }
+                }
+                ... on NodeHomepage {
+                  __typename id title heroTitle heroSubtitle heroDescription { processed }
+                  statsItems { ... on ParagraphStatItem { id number label } }
+                  featuredItemsTitle ctaTitle ctaDescription { processed } ctaPrimary ctaSecondary
+                }
+              }
             }
           }
         }

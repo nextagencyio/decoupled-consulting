@@ -1,14 +1,16 @@
 'use client'
 
-import { useQuery } from '@apollo/client'
+import { useQuery, gql as apolloGql } from '@apollo/client'
 import { GET_FEATURED_SERVICES } from '@/lib/queries'
+
+const FEATURED_SERVICES_QUERY = apolloGql(GET_FEATURED_SERVICES)
 import { DrupalService } from '@/lib/types'
 import Link from 'next/link'
 import ResponsiveImage from './ResponsiveImage'
 import { ArrowRight } from 'lucide-react'
 
 export default function FeaturedServices() {
-  const { data, loading } = useQuery(GET_FEATURED_SERVICES)
+  const { data, loading } = useQuery(FEATURED_SERVICES_QUERY)
   const services: DrupalService[] = data?.nodeServices?.nodes || []
 
   if (loading) {

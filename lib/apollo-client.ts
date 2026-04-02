@@ -79,8 +79,12 @@ export function getServerApolloClient(requestHeaders: Headers): ApolloClient<any
     link: authLink.concat(httpLink),
     cache: new InMemoryCache({
       possibleTypes: {
-        TermInterface: ['TermDepartment', 'TermCategory', 'TermTags'],
-        NodeInterface: ['NodeProgram', 'NodeFaculty', 'NodeEvent', 'NodeNews', 'NodePage', 'NodeHomepage'],
+        TermInterface: ['TermTag'],
+        NodeInterface: ['NodeCaseStudy', 'NodeHomepage', 'NodeInsight', 'NodePage', 'NodeService', 'NodeTeamMember'],
+        ParagraphInterface: ['ParagraphStatItem'],
+        RouteUnion: ['RouteInternal', 'RouteExternal'],
+        RouteEntityUnion: ['NodeCaseStudy', 'NodeHomepage', 'NodeInsight', 'NodePage', 'NodeService', 'NodeTeamMember'],
+        ParagraphUnion: ['ParagraphStatItem'],
       },
     }),
     defaultOptions: {
